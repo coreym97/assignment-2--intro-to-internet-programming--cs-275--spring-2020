@@ -1,7 +1,7 @@
 const { src, dest, series, watch } = require(`gulp`);
 const babel = require(`gulp-babel`);
 const cssLinter = require(`gulp-stylelint`);
-const cssCompressor = require('gulp-clean-css');
+const cssCompressor = require(`gulp-clean-css`);
 const htmlCompressor = require(`gulp-htmlmin`);
 const htmlValidator = require(`gulp-html`);
 const jsLinter = require(`gulp-eslint`);
