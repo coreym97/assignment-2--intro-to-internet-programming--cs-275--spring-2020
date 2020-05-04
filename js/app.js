@@ -22,7 +22,7 @@ whiteRice.onchange = () => {
             <li>Reduce heat to lowest setting
             <li>Cook for 18 minutes
         </ol>`;
-}
+};
 
 sproutRice.onchange = () => {
     let rice = sproutRice.value;
@@ -53,4 +53,4 @@ sproutRice.onchange = () => {
             <li>Let Stand for 5 minutes
             <li>Fluff with a fork then serve
         </ol>`;
-}
+};
