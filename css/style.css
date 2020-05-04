@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
+  font-size: 50px;
+  font-family: 'Caveat', cursive;
+}
+
+h2 {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+h3 {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div {
+  background-color: rgb(254, 219, 211);
+  margin: 5px;
+  border: solid 2px black;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+ol {
+  list-style: decimal;
+}
+input {
+  margin: 5px;
+}
+
