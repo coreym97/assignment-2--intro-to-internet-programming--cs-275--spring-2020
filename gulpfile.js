@@ -49,8 +49,8 @@ let lintCSS = () => {
 
 let compressCSS = () => {
     return src(`temp/*.css`)
-        .pipe(cleanCSS())
-        .pipe(gulp.dest('prod/styles'));
+        .pipe(cssCompressor())
+        .pipe(dest(`prod/styles`));
 };
 
 let serve = () => {
