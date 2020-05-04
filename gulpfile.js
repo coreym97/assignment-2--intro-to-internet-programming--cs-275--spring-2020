@@ -63,7 +63,9 @@ let serve = () => {
         }
     });
 
-    watch([`html/**/*.html`, `css/*.css`, `js/*.js`]).on(`change`, reload);
+    watch(`html/*.html`).on(`change`, reload);
+    watch(`css/*.css`).on(`change`, reload);
+    watch(`js/*.js`).on(`change`, reload);
 };
 
 exports.validateHTML = validateHTML;
